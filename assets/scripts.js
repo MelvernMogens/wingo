@@ -35,15 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const bingoBoard = document.getElementById('bingoBoard');
     const gridSize = 7;
 
-    // Shuffle questions to randomize the board
+    // Ensure we have enough unique questions for each cell
+    if (questions.length < gridSize * gridSize) {
+        console.error('Not enough questions to fill the board.');
+        return;
+    }
+
+    // Shuffle questions and labels to randomize the board
     const shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, gridSize * gridSize);
+    const shuffledLabels = labels.sort(() => 0.5 - Math.random());
 
     for (let i = 0; i < gridSize * gridSize; i++) {
         const cell = document.createElement('div');
         cell.classList.add('bingo-cell');
         cell.dataset.question = shuffledQuestions[i];
-        cell.dataset.label = labels[i];
-        cell.textContent = labels[i];
+        cell.dataset.label = shuffledLabels[i];
+        cell.textContent = shuffledLabels[i];
 
         cell.addEventListener('click', () => {
             if (!cell.classList.contains('revealed')) {
