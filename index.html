@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wingo</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img src="assets/icon.png" alt="Logo" class="logo">
+        <h1>Wingo</h1>
+    </div>
+    <div class="bingo-board" id="bingoBoard"></div>
+    <div class="labels-input">
+        <h2>Jawaban Benar</h2>
+        <div class="label-fields">
+            <!-- A1 to A7 -->
+            <div class="label-field"><label for="A1">A1:</label><input type="text" id="A1" data-label="A1"></div>
+            <div class="label-field"><label for="A2">A2:</label><input type="text" id="A2" data-label="A2"></div>
+            <div class="label-field"><label for="A3">A3:</label><input type="text" id="A3" data-label="A3"></div>
+            <div class="label-field"><label for="A4">A4:</label><input type="text" id="A4" data-label="A4"></div>
+            <div class="label-field"><label for="A5">A5:</label><input type="text" id="A5" data-label="A5"></div>
+            <div class="label-field"><label for="A6">A6:</label><input type="text" id="A6" data-label="A6"></div>
+            <div class="label-field"><label for="A7">A7:</label><input type="text" id="A7" data-label="A7"></div>
+            <!-- B1 to B7 -->
+            <div class="label-field"><label for="B1">B1:</label><input type="text" id="B1" data-label="B1"></div>
+            <div class="label-field"><label for="B2">B2:</label><input type="text" id="B2" data-label="B2"></div>
+            <div class="label-field"><label for="B3">B3:</label><input type="text" id="B3" data-label="B3"></div>
+            <div class="label-field"><label for="B4">B4:</label><input type="text" id="B4" data-label="B4"></div>
+            <div class="label-field"><label for="B5">B5:</label><input type="text" id="B5" data-label="B5"></div>
+            <div class="label-field"><label for="B6">B6:</label><input type="text" id="B6" data-label="B6"></div>
+            <div class="label-field"><label for="B7">B7:</label><input type="text" id="B7" data-label="B7"></div>
+            <!-- C1 to C7 -->
+            <div class="label-field"><label for="C1">C1:</label><input type="text" id="C1" data-label="C1"></div>
+            <div class="label-field"><label for="C2">C2:</label><input type="text" id="C2" data-label="C2"></div>
+            <div class="label-field"><label for="C3">C3:</label><input type="text" id="C3" data-label="C3"></div>
+            <div class="label-field"><label for="C4">C4:</label><input type="text" id="C4" data-label="C4"></div>
+            <div class="label-field"><label for="C5">C5:</label><input type="text" id="C5" data-label="C5"></div>
+            <div class="label-field"><label for="C6">C6:</label><input type="text" id="C6" data-label="C6"></div>
+            <div class="label-field"><label for="C7">C7:</label><input type="text" id="C7" data-label="C7"></div>
+            <!-- D1 to D7 -->
+            <div class="label-field"><label for="D1">D1:</label><input type="text" id="D1" data-label="D1"></div>
+            <div class="label-field"><label for="D2">D2:</label><input type="text" id="D2" data-label="D2"></div>
+            <div class="label-field"><label for="D3">D3:</label><input type="text" id="D3" data-label="D3"></div>
+            <div class="label-field"><label for="D4">D4:</label><input type="text" id="D4" data-label="D4"></div>
+            <div class="label-field"><label for="D5">D5:</label><input type="text" id="D5" data-label="D5"></div>
+            <div class="label-field"><label for="D6">D6:</label><input type="text" id="D6" data-label="D6"></div>
+            <div class="label-field"><label for="D7">D7:</label><input type="text" id="D7" data-label="D7"></div>
+            <!-- E1 to E7 -->
+            <div class="label-field"><label for="E1">E1:</label><input type="text" id="E1" data-label="E1"></div>
+            <div class="label-field"><label for="E2">E2:</label><input type="text" id="E2" data-label="E2"></div>
+            <div class="label-field"><label for="E3">E3:</label><input type="text" id="E3" data-label="E3"></div>
+            <div class="label-field"><label for="E4">E4:</label><input type="text" id="E4" data-label="E4"></div>
+            <div class="label-field"><label for="E5">E5:</label><input type="text" id="E5" data-label="E5"></div>
+            <div class="label-field"><label for="E6">E6:</label><input type="text" id="E6" data-label="E6"></div>
+            <div class="label-field"><label for="E7">E7:</label><input type="text" id="E7" data-label="E7"></div>
+            <!-- F1 to F7 -->
+            <div class="label-field"><label for="F1">F1:</label><input type="text" id="F1" data-label="F1"></div>
+            <div class="label-field"><label for="F2">F2:</label><input type="text" id="F2" data-label="F2"></div>
+            <div class="label-field"><label for="F3">F3:</label><input type="text" id="F3" data-label="F3"></div>
+            <div class="label-field"><label for="F4">F4:</label><input type="text" id="F4" data-label="F4"></div>
+            <div class="label-field"><label for="F5">F5:</label><input type="text" id="F5" data-label="F5"></div>
+            <div class="label-field"><label for="F6">F6:</label><input type="text" id="F6" data-label="F6"></div>
+            <div class="label-field"><label for="F7">F7:</label><input type="text" id="F7" data-label="F7"></div>
+            <!-- G1 to G7 -->
+            <div class="label-field"><label for="G1">G1:</label><input type="text" id="G1" data-label="G1"></div>
+            <div class="label-field"><label for="G2">G2:</label><input type="text" id="G2" data-label="G2"></div>
+            <div class="label-field"><label for="G3">G3:</label><input type="text" id="G3" data-label="G3"></div>
+            <div class="label-field"><label for="G4">G4:</label><input type="text" id="G4" data-label="G4"></div>
+            <div class="label-field"><label for="G5">G5:</label><input type="text" id="G5" data-label="G5"></div>
+            <div class="label-field"><label for="G6">G6:</label><input type="text" id="G6" data-label="G6"></div>
+            <div class="label-field"><label for="G7">G7:</label><input type="text" id="G7" data-label="G7"></div>
+        </div>
+    </div>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>

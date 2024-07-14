@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('Background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: red;
+}
+
+.bingo-board {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    width: 70vw;
+    height: 70vw;/* Add a slight background to the board for readability */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bingo-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bingo-cell.revealed {
+    background-color: #add8e6;
+}
+
+.labels-input {
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+.label-fields {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+.label-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-field input {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
