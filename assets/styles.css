@@ -1,31 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
 }
 
 .bingo-board {
     display: grid;
-    grid-template-columns: repeat(7, 100px);
-    grid-template-rows: repeat(7, 100px);
-    gap: 5px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    width: 70vw;
+    height: 70vw;
 }
 
-.bingo-board .cell {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
+.bingo-cell {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 1.5em;
     cursor: pointer;
-    font-size: 20px;
+    transition: background-color 0.3s;
 }
 
-.bingo-board .cell.revealed {
-    background-color: #ffcc00;
+.bingo-cell.revealed {
+    background-color: #add8e6;
 }
