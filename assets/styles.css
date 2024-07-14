@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background: url('Background.png') no-repeat center center fixed;
     background-size: cover;
@@ -14,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .logo {
@@ -26,14 +25,16 @@ body {
 h1 {
     margin: 0;
     color: red;
+    font-size: 2.5rem;
 }
 
 .bingo-board {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 5px;
-    width: 70vw;
-    height: 70vw;/* Add a slight background to the board for readability */
+    width: 90vw;
+    max-width: 600px;
+    height: auto;/* Add a slight background to the board for readability */
     padding: 10px;
     border-radius: 10px;
 }
@@ -55,11 +56,15 @@ h1 {
 
 .labels-input {
     margin-top: 10px;
+    width: 90vw;
+    max-width: 600px;
 }
 
 h2 {
     text-align: center;
     color: red;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .label-fields {
@@ -77,4 +82,20 @@ h2 {
 .label-field input {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
 }
