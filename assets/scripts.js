@@ -35,12 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const bingoBoard = document.getElementById('bingoBoard');
     const gridSize = 7;
 
-    questions.sort(() => 0.5 - Math.random());
+    // Shuffle questions to randomize the board
+    const shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, gridSize * gridSize);
 
     for (let i = 0; i < gridSize * gridSize; i++) {
         const cell = document.createElement('div');
         cell.classList.add('bingo-cell');
-        cell.dataset.question = questions[i];
+        cell.dataset.question = shuffledQuestions[i];
         cell.dataset.label = labels[i];
         cell.textContent = labels[i];
 
