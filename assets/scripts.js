@@ -41,16 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Shuffle questions and labels to randomize the board
-    const shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, gridSize * gridSize);
-    const shuffledLabels = labels.sort(() => 0.5 - Math.random());
-
+    // Assign questions to the board cells
     for (let i = 0; i < gridSize * gridSize; i++) {
         const cell = document.createElement('div');
         cell.classList.add('bingo-cell');
-        cell.dataset.question = shuffledQuestions[i];
-        cell.dataset.label = shuffledLabels[i];
-        cell.textContent = shuffledLabels[i];
+        cell.dataset.question = questions[i];
+        cell.dataset.label = labels[i];
+        cell.textContent = labels[i];
 
         cell.addEventListener('click', () => {
             if (!cell.classList.contains('revealed')) {
