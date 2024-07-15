@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = [
-        "Kapan KMB Dibentuk?", "Siapa Ketua KMB?", "Ha?",
+        "Kapan KMB Dibentuk?", "Siapa Ketua KMB?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
