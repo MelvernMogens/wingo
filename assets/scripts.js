@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = [
-        "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
+        "Kapan KMB Dibentuk?", "Siapa Ketua KMB?", "Ha?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
@@ -37,12 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    const shuffledQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, gridSize * gridSize);
-
+    // No randomization, use questions directly
     for (let i = 0; i < gridSize * gridSize; i++) {
         const cell = document.createElement('div');
         cell.classList.add('bingo-cell');
-        cell.dataset.question = shuffledQuestions[i];
+        cell.dataset.question = questions[i];
         cell.dataset.label = labels[i];
         cell.textContent = labels[i];
 
