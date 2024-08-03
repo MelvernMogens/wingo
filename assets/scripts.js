@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = [
-        "Kapan KMB Dibentuk?", "Siapa Ketua KMB?", "Kapan KMB Dibentuk?",
+        "Kapan KMB Dibentuk?", "Berapa hasil dari log10(1000)?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
-        "Kapan KMB Dibentuk?"
+        "Siapa Ketua KMB?"
     ];
 
     const labels = [
