@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Apa arti Saddha?", "Jika suhu air 0 derajat Celsius, apakah air tersebut beku atau cair? Jelaskan", "Apa itu Bodhisattva?",
         "Apa yang jatuh tetapi tidak pernah naik?", "Siapa penulis novel 'Harry Potter'?", "Sebutkan Empat Kebenaran Mulia?",
         "Apa itu Nirvana?", "Siapa penemu hukum gravitasi?", "Apa ibukota negara Thailand?",
-        "Jika X + 1/X = 3, hitung X^2 + 1/X^2", "Berapa hasil dari ((29+20)*25+78*99/20-200/34+46*56-34+21/3)*(2813-2813)?", "Unsur Kimia dengan simbol O?",
+        "Jika X + 1/X = 3, hitung X^2 + 1/X^2", "Apa itu hukum karma?", "Berapa hasil dari ((29+20)*25+78*99/20-200/34+46*56-34+21/3)*(2813-2813)?", "Unsur Kimia dengan simbol O?",
         "Siapakah yang mengembangkan teori relativitas?", "Apa itu Sangha?", "Saya memiliki banyak gigi tapi tidak bisa menggigit. Siapakah saya?",
         "Apa itu Dukkha?", "Apa nama samudra terbesar di dunia?", "Apa itu Dharma?",
         "Siapa pengarang 'Romeo dan Juliet'?", "Apa yang memiliki kepala, ekor, tapi tidak punya tubuh?", "Tentukan nilai y jika y = 3x + 128, dan x = 23*23",
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Ubahlah 20% menjadi pecahan.", "Apa itu Dana?", "Saya selalu datang tetapi tidak pernah tiba. Apa saya?",
         "Tentukan median dari data berikut: 3, 7, 9, 5, 4.", "Apa itu Sutra?", "Kapan Indonesia Merdeka?",
         "Saya hidup tanpa bernapas dan dingin dalam kematian. Apakah saya?", "Siapa nama Kusir Pangeran Siddharta?", "Tentukan luas segitiga dengan alas 8 cm dan tinggi 5 cm.",
-        "Apa nama ibu kota Jepang?", " Apa yang bisa kamu tangkap tetapi tidak bisa dilempar?", "Kapan KMB Dibentuk?",
+        "Apa nama ibu kota Jepang?", " Apa yang bisa kamu tangkap tetapi tidak bisa dilempar?",
         "Siapa Ketua KMB?"
     ];
 
