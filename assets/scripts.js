@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = [
-        "Kapan KMB Dibentuk?", "Berapa hasil dari log10(1000)?", "Kapan KMB Dibentuk?",
-        "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
+        "Kapan KMB Dibentuk?", "Berapa hasil dari log10(1000)?", "Siapa penemu bola lampu listrik?",
+        "Apa simbol kimia untuk air?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
         "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?", "Kapan KMB Dibentuk?",
