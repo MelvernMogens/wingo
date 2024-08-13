@@ -1,20 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     const questions = [
         "Kapan KMB Dibentuk?", "Berapa hasil dari log10(1000)?", "Siapa penemu bola lampu listrik?",
-        "Apa simbol kimia untuk air?", "Apa nama kuda Pangeran Siddharta?", "Berapa Bhikku yang hadir saat Magha Puja?",
-        "Apa planet terbesar di tata surya kita?", "Berapa akar dari 6084?", "Berapa sila yang dipegang Bhikku?",
+        "Apa simbol kimia untuk air?", "Apa nama kuda Pangeran Siddhatta?", "Berapa Bhikkhu yang hadir saat Magha Puja?",
+        "Apa planet terbesar di tata surya kita?", "Berapa akar dari 6084?", "Berapa sila yang dipegang Bhikkhu?",
         "Apa yang lebih berat, satu kilogram kapas atau satu kilogram besi?", "Ajaran yang dibabarkan oleh Buddha saat Magha Puja dikenal sebagai?", "Saya memiliki kunci tapi tidak pernah membuka pintu. Siapakah saya?",
-        "Apa arti Saddha?", "Jika suhu air 0 derajat Celsius, apakah air tersebut beku atau cair? Jelaskan", "Apa itu Bodhisattva?",
+        "Apa arti Saddha?", "Jika suhu air 0 derajat Celsius, apakah air tersebut beku atau cair? Jelaskan", "Apa itu Bodhisatta?",
         "Apa yang jatuh tetapi tidak pernah naik?", "Siapa penulis novel 'Harry Potter'?", "Sebutkan Empat Kebenaran Mulia?",
-        "Apa itu Nirvana?", "Siapa penemu hukum gravitasi?", "Apa ibukota negara Thailand?",
-        "Jika X + 1/X = 3, hitung X^2 + 1/X^2", "Apa itu hukum karma?", "Berapa hasil dari ((29+20)*25+78*99/20-200/34+46*56-34+21/3)*(2813-2813)?", "Unsur Kimia dengan simbol O?",
+        "Apa itu Nibbana?", "Siapa penemu hukum gravitasi?", "Apa ibukota negara Thailand?",
+        "Apa pohon yang ditempati oleh Sang Buddha?", "Apa itu hukum karma?", "Berapa hasil dari ((29+20)*25+78*99/20-200/34+46*56-34+21/3)*(2813-2813)?", "Unsur Kimia dengan simbol O?",
         "Siapakah yang mengembangkan teori relativitas?", "Apa itu Sangha?", "Saya memiliki banyak gigi tapi tidak bisa menggigit. Siapakah saya?",
-        "Apa itu Dukkha?", "Apa nama samudra terbesar di dunia?", "Apa itu Dharma?",
+        "Apa itu Dukkha?", "Apa nama samudra terbesar di dunia?", "Apa itu Dhamma?",
         "Siapa pengarang 'Romeo dan Juliet'?", "Apa yang memiliki kepala, ekor, tapi tidak punya tubuh?", "Tentukan nilai y jika y = 3x + 128, dan x = 23*23",
         "Apa yang tidak bisa digunakan sampai ia dipecahkan?", "Saya punya kota tapi tidak punya rumah. Saya punya gunung tapi tidak punya pohon. Saya punya air tapi tidak punya ikan. Siapakah saya?", "Siapa Pencipta 'Mona Lisa'?",
         "Ubahlah 20% menjadi pecahan.", "Apa itu Dana?", "Saya selalu datang tetapi tidak pernah tiba. Apa saya?",
         "Tentukan median dari data berikut: 3, 7, 9, 5, 4.", "Apa itu Sutra?", "Kapan Indonesia Merdeka?",
-        "Saya hidup tanpa bernapas dan dingin dalam kematian. Apakah saya?", "Siapa nama Kusir Pangeran Siddharta?", "Tentukan luas segitiga dengan alas 8 cm dan tinggi 5 cm.",
+        "Saya hidup tanpa bernapas dan dingin dalam kematian. Apakah saya?", "Siapa nama Kusir Pangeran Siddhatta?", "Tentukan luas segitiga dengan alas 8 cm dan tinggi 5 cm.",
         "Apa nama ibu kota Jepang?", " Apa yang bisa kamu tangkap tetapi tidak bisa dilempar?",
         "Siapa Ketua KMB?"
     ];
