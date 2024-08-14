@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Apa yang lebih berat, satu kilogram kapas atau satu kilogram besi?", "Ajaran yang dibabarkan oleh Buddha saat Magha Puja dikenal sebagai?", "Saya memiliki kunci tapi tidak pernah membuka pintu. Siapakah saya?",
         "Apa arti Saddha?", "Jika suhu air 0 derajat Celsius, apakah air tersebut beku atau cair? Jelaskan", "Apa itu Bodhisatta?",
         "Apa yang jatuh tetapi tidak pernah naik?", "Siapa penulis novel 'Harry Potter'?", "Sebutkan Empat Kebenaran Mulia?",
-        "Apa itu Nibbana?", "Siapa penemu hukum gravitasi?", "Apa ibukota negara MonaKo?",
+        "Apa itu Nibbana?", "Siapa penemu hukum gravitasi?", "Apa ibukota negara Monaco?",
         "Apa pohon yang ditempati oleh Sang Buddha?", "Apa itu hukum karma?", "Berapa hasil dari ((29+20)*25+78*99/20-200/34+46*56-34+21/3)*(2813-2813)?", "Unsur Kimia dengan simbol O?",
         "Siapakah yang mengembangkan teori relativitas?", "Apa itu Sangha?", "Saya memiliki banyak gigi tapi tidak bisa menggigit. Siapakah saya?",
         "Apa itu Dukkha?", "Apa nama samudra terbesar di dunia?", "Apa itu Dhamma?",
