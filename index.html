@@ -4,14 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radira Snack - Premium Rengginang</title>
-    <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #4E342E;
+            background: linear-gradient(to bottom, #FBE9E7, #FFEBEE);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #8D6E63, #D7CCC8);
+            color: #FFFFFF;
+            padding: 4rem 0;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin: 0 0 1rem;
+        }
+
+        .header p {
+            margin: 0 0 2rem;
+            font-size: 1.5rem;
+        }
+
+        .cta-button {
+            background-color: #FF5722;
+            color: #FFFFFF;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #E64A19;
+            transform: scale(1.1);
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #8D6E63;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+        .navbar ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #FFC107;
+        }
+
+        /* Products Section */
+        .products {
+            text-align: center;
+            padding: 3rem 0;
+            background: #FFEBEE;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: #FFFFFF;
+            border: 1px solid #D7CCC8;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .buy-button {
+            display: inline-block;
+            background-color: #FF5722;
+            color: #FFFFFF;
+            padding: 0.5rem 1.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .buy-button:hover {
+            background-color: #E64A19;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 3rem 0;
+            background-color: #FFFFFF;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366;
+            color: #FFFFFF;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1EB851;
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background: #8D6E63;
+            color: #FFFFFF;
+            padding: 1rem 0;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="fade-in">Radira Snack</h1>
-            <p class="fade-in-delay">Rengginang Gurih, Melekat di Hati!</p>
+            <h1>Radira Snack</h1>
+            <p>Rengginang Gurih, Melekat di Hati!</p>
             <a href="#products" class="cta-button">Explore Products</a>
         </div>
     </header>
@@ -78,7 +242,5 @@
             <p>&copy; 2024 Radira Snack. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script src="../script.js"></script>
 </body>
 </html>
