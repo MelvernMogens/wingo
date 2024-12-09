@@ -3,40 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wingo</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="icon" href="assets/icon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <title>Radira Snack - Premium Rengginang</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <img src="assets/icon.png" alt="Logo" class="logo">
-        <h1>Wingo</h1>
-    </div>
-    <div class="bingo-board" id="bingoBoard"></div>
-    <div class="group-inputs">
-        <h2>Groups</h2>
-        <div class="group-field"><label for="group1">Group 1 Name:</label><input type="text" id="group1" class="group-name"><label for="group1Color">Color:</label><input type="color" id="group1Color" class="group-color" value="#FFB3BA"><label for="group1Label">Label:</label><input type="text" id="group1Label" class="group-label"></div>
-        <div class="group-field"><label for="group2">Group 2 Name:</label><input type="text" id="group2" class="group-name"><label for="group2Color">Color:</label><input type="color" id="group2Color" class="group-color" value="#FFDAC1"><label for="group2Label">Label:</label><input type="text" id="group2Label" class="group-label"></div>
-        <div class="group-field"><label for="group3">Group 3 Name:</label><input type="text" id="group3" class="group-name"><label for="group3Color">Color:</label><input type="color" id="group3Color" class="group-color" value="#B8EDFF"><label for="group3Label">Label:</label><input type="text" id="group3Label" class="group-label"></div>
-        <div class="group-field"><label for="group4">Group 4 Name:</label><input type="text" id="group4" class="group-name"><label for="group4Color">Color:</label><input type="color" id="group4Color" class="group-color" value="#FFFFBA"><label for="group4Label">Label:</label><input type="text" id="group4Label" class="group-label"></div>
-        <div class="group-field"><label for="group5">Group 5 Name:</label><input type="text" id="group5" class="group-name"><label for="group5Color">Color:</label><input type="color" id="group5Color" class="group-color" value="#B0E57C"><label for="group5Label">Label:</label><input type="text" id="group5Label" class="group-label"></div>
-        <div class="group-field"><label for="group6">Group 6 Name:</label><input type="text" id="group6" class="group-name"><label for="group6Color">Color:</label><input type="color" id="group6Color" class="group-color" value="#B5EAD7"><label for="group6Label">Label:</label><input type="text" id="group6Label" class="group-label"></div>
-        <div class="group-field"><label for="group7">Group 7 Name:</label><input type="text" id="group7" class="group-name"><label for="group7Color">Color:</label><input type="color" id="group7Color" class="group-color" value="#C7CEEA"><label for="group7Label">Label:</label><input type="text" id="group7Label" class="group-label"></div>
-        <div class="group-field"><label for="group8">Group 8 Name:</label><input type="text" id="group8" class="group-name"><label for="group8Color">Color:</label><input type="color" id="group8Color" class="group-color" value="#D4A5A5"><label for="group8Label">Label:</label><input type="text" id="group8Label" class="group-label"></div>
-        <div class="group-field"><label for="group9">Group 9 Name:</label><input type="text" id="group9" class="group-name"><label for="group9Color">Color:</label><input type="color" id="group9Color" class="group-color" value="#FFB347"><label for="group9Label">Label:</label><input type="text" id="group9Label" class="group-label"></div>
-        <div class="group-field"><label for="group10">Group 10 Name:</label><input type="text" id="group10" class="group-name"><label for="group10Color">Color:</label><input type="color" id="group10Color" class="group-color" value="#B19CD9"><label for="group10Label">Label:</label><input type="text" id="group10Label" class="group-label"></div>
-        <div class="group-field"><label for="group11">Group 11 Name:</label><input type="text" id="group11" class="group-name"><label for="group11Color">Color:</label><input type="color" id="group11Color" class="group-color" value="#FF6961"><label for="group11Label">Label:</label><input type="text" id="group11Label" class="group-label"></div>
-        <div class="group-field"><label for="group12">Group 12 Name:</label><input type="text" id="group12" class="group-name"><label for="group12Color">Color:</label><input type="color" id="group12Color" class="group-color" value="#FDFD96"><label for="group12Label">Label:</label><input type="text" id="group12Label" class="group-label"></div>
-        <div class="group-field"><label for="group13">Group 13 Name:</label><input type="text" id="group13" class="group-name"><label for="group13Color">Color:</label><input type="color" id="group13Color" class="group-color" value="#77DD77"><label for="group13Label">Label:</label><input type="text" id="group13Label" class="group-label"></div>
-        <div class="group-field"><label for="group14">Group 14 Name:</label><input type="text" id="group14" class="group-name"><label for="group14Color">Color:</label><input type="color" id="group14Color" class="group-color" value="#AEC6CF"><label for="group14Label">Label:</label><input type="text" id="group14Label" class="group-label"></div>
-        <div class="group-field"><label for="group15">Group 15 Name:</label><input type="text" id="group15" class="group-name"><label for="group15Color">Color:</label><input type="color" id="group15Color" class="group-color" value="#836953"><label for="group15Label">Label:</label><input type="text" id="group15Label" class="group-label"></div>
-        <div class="group-field"><label for="group16">Group 16 Name:</label><input type="text" id="group16" class="group-name"><label for="group16Color">Color:</label><input type="color" id="group16Color" class="group-color" value="#779ECB"><label for="group16Label">Label:</label><input type="text" id="group16Label" class="group-label"></div>
-        <div class="group-field"><label for="group17">Group 17 Name:</label><input type="text" id="group17" class="group-name"><label for="group17Color">Color:</label><input type="color" id="group17Color" class="group-color" value="#966FD6"><label for="group17Label">Label:</label><input type="text" id="group17Label" class="group-label"></div>
-        <div class="group-field"><label for="group18">Group 18 Name:</label><input type="text" id="group18" class="group-name"><label for="group18Color">Color:</label><input type="color" id="group18Color" class="group-color" value="#C23B22"><label for="group18Label">Label:</label><input type="text" id="group18Label" class="group-label"></div>
-        <div class="group-field"><label for="group19">Group 19 Name:</label><input type="text" id="group19" class="group-name"><label for="group19Color">Color:</label><input type="color" id="group19Color" class="group-color" value="#F49AC2"><label for="group19Label">Label:</label><input type="text" id="group19Label" class="group-label"></div>
-        <div class="group-field"><label for="group20">Group 20 Name:</label><input type="text" id="group20" class="group-name"><label for="group20Color">Color:</label><input type="color" id="group20Color" class="group-color" value="#CB99C9"><label for="group20Label">Label:</label><input type="text" id="group20Label" class="group-label"></div>
-    </div>
-    <script src="assets/scripts.js"></script>
+    <header class="header">
+        <div class="container">
+            <h1 class="fade-in">Radira Snack</h1>
+            <p class="fade-in-delay">Rengginang Gurih, Melekat di Hati!</p>
+            <a href="#products" class="cta-button">Explore Products</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#about" class="scroll-link">About</a></li>
+                <li><a href="#products" class="scroll-link">Products</a></li>
+                <li><a href="#contact" class="scroll-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Radira Snack</h2>
+                <p>Radira Snack brings the best of traditional and modern snacks to your table. Made with premium rice and natural seasonings, our rengginang comes in various exciting flavors and sizes!</p>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04peAmhA_BA_kZUTin_uhi6C8886ia4DVww&s" alt="Small Rengginang" class="product-img">
+                        <h3>Small Rengginang</h3>
+                        <p>Price: 12,000 IDR</p>
+                        <ul>
+                            <li>Original Flavor</li>
+                            <li>Spicy Flavor</li>
+                            <li>Sweet Flavor</li>
+                        </ul>
+                        <a href="https://wa.me/1234567890" class="buy-button">Order Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2bsGcp5tT783PTbRXLoilRDk1NZLW-iJKA&s" alt="Large Rengginang" class="product-img">
+                        <h3>Large Rengginang</h3>
+                        <p>Price: 20,000 IDR</p>
+                        <ul>
+                            <li>Original Flavor</li>
+                            <li>Spicy Flavor</li>
+                            <li>Sweet Flavor</li>
+                        </ul>
+                        <a href="https://wa.me/1234567890" class="buy-button">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions? Order now via WhatsApp:</p>
+                <a href="https://wa.me/1234567890" class="whatsapp-button">Chat on WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Radira Snack. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
